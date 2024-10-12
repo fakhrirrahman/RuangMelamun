@@ -1,0 +1,136 @@
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: rgb(241, 240, 240);
+}
+
+
+.navbar-custom {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  height: 4.5rem; 
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+}
+.navbar-brand img {
+  height: 70px; /* Mengatur tinggi gambar agar sesuai dengan tinggi navbar */
+  width: auto; /* Mengatur lebar gambar agar menyesuaikan proporsi aslinya */
+  image-resolution: 0 4px 8px rgba(255, 255, 255, 0.10);
+ }
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  font-family: 'Be Vietnam Pro', serif;
+  font-weight: bold;
+  color: black;
+}
+.navbar-custom .navbar-brand img {
+  width: 200px;
+  
+}
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .navbar-custom {
+      padding: 0.5rem;
+  }
+
+  .navbar-brand img {
+      height: 40px;
+  }
+  
+  }
+  h1.index-title {
+    font-family: 'Copperplate', serif;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    font-size: 80px; /* Adjust the font size as needed */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  .rounded-circle {
+     border-radius: 50%;
+  }
+  .img-shadow {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+     border-radius: 4px;
+     overflow: hidden;
+  }
+
+  p.waktu-title {
+    font-family: 'Papyrus', serif;
+    font-weight: bold;
+  }
+  .tentang {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(82, 82, 82, 0.3);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .img-border {
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(114, 112, 112, 0.8);
+    }
+    .tentang-title {
+        font-family: 'Copperplate', serif;
+        font-weight: bold;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+    }
+    .tentang-title {
+        color: rgb(0, 0, 0);
+        
+    }
+    .waktu-title {
+        color: rgb(0, 0, 0);
+    }
+
+
+    .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+   }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Copperplate', serif;
+    }
+
+    .footer-content .info {
+      flex: 1;
+    }
+
+    .footer-content .contact-info {
+      flex: 2;
+    }
+
+    .footer-content .social-media {
+      flex: 1;
+    }
+
+    .contact-info p {
+      margin: 0;
+    }
+    .info img {
+      border: 1px solid #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(114, 112, 112, 0.5);
+    }
+
+    .social-media img {
+      margin-right: 1rem;
+    }
+
+    .footer hr {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      margin: 1rem 0;
+    }
+
+    .copyright {
+      color: #aaa;
+    }
